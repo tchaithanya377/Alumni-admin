@@ -8,6 +8,7 @@ import EventManagement from './components/EventManagement';
 import AnnouncementManagement from './components/AnnouncementsAndNews';
 import AnalyticsAndReports from './components/AnalyticsAndReports';
 import Login from './components/Login';
+import GalleryManagement from './components/GalleryManagement';
 
 function App() {
   const handleLogout = () => {
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/events" element={<EventManagement />} />
                 <Route path="/announcements" element={<AnnouncementManagement />} />
                 <Route path="/analytics" element={<AnalyticsAndReports />} />
+                <Route path='/gallery' element={<GalleryManagement/>} />
               </Routes>
             </SidebarAdmin>
           }

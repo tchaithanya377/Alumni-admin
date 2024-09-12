@@ -51,6 +51,10 @@ const SidebarAdmin = ({ onLogout, children }) => {
             <FaFileAlt className="mr-3" />
             {isOpen && <span>Analytics & Reports</span>}
           </NavLink>
+          <NavLink to="/sponsor" className="flex items-center p-3 hover:bg-secondary rounded">
+            <FaFileAlt className="mr-3" />
+            {isOpen && <span>Sponsor</span>}
+          </NavLink>
 
           {/* Logout Button (Below Reports Section) */}
           <div className="mt-4">
